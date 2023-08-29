@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>site cda</title>
+</head>
+<body>
+    <!--menu superior-->
+ <div id="menu-superior">
+    <a href="https://casadosamigos.com.br/"><img id="logo" src="./imagem/logo_casadosamigos_Prancheta 1.png" alt=""></a>
+    <h1 id="titulo-menu">Tudo para o seu Pet em um só lugar</h1>
+    <p id="texto-menu">ESTAMOS ESPERANDO SEU PET</p>  
+  </div> 
+    <!--menu icones-->
+    <div id="menu-icone">
+      <DIV id="conj1">
+      <p class="textoicone"><img id="icone1" class="icones--" src="./imagem/Arte_1 png.png" alt="">Clinica Veterinária</p>
+      </DIV>
+      <DIV id="conj2">
+      <p class="textoicone"><img id="icone2" class="icones--" src="./imagem/Arte_1 png.png" alt="">Estetica Pet</p>
+      </DIV>
+      <DIV id="conj3">
+      <p class="textoicone"><img id="icone3" class="icones--" src="./imagem/Arte_1 png.png" alt="">Pet Shop</p>
+      </DIV>
+    </div>
+    <!--menu video e texto-->
+    <div id="video">
+    <iframe id="vid" width="500" height="500" src="https://www.youtube.com/embed/fsOZpzP4aVk" title="Simplesmente Casa dos Amigos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="textovideo">
+    <h1 id="titulovideo">Quem Somos</h1>
+    <p>A Casa dos Amigos é uma clínica veterinária <br> sabe da importância do seu animalzinho.<br>
+     E é justamente por isso que cuidamos<br> dele com toda a dedicação que ele merece.<br><br>
+     Em um ambiente agradável e com a máxima<br> higiene, o seu bichinho de estimação <br>
+     será atendido por uma equipe especializada <br> e responsável que, acima de tudo,<br>
+     ama os animais e se preocupa em tomar todas <br>as providências para que você fique tranquilo <br>
+     e possa curtir sempre mais seu melhor amigo.<br><br>
+     A Casa dos Amigos foi fundada em 2014 pelo <br>Dr. Renato Duarte Soares pós-graduado em <br>clínica médica 
+    e cirurgia em pequenos animais e <br>pós graduado em Dermatologia cães e gatos.</p>
+    </div>
+    </div>
+    <!--cards-->
+    <div id="carrocel">
+      <DIV id="comentario">
+        <h1 id="titulo card">Comentário sobre nós</h1><br>
+      </DIV>
+      <div id="coment">
+        <img id="setae" onclick="RolarEsquerda()" class="seta" src="./imagem/seta e.png" alt="">
+        <img id="card1" class="cards" src="./imagem/card1.png" alt="">
+        <img id="card2" class="cards" src="./imagem/card 2.png" alt="">
+        <img id="card3" class="cards" src="./imagem/card3.png" alt="">
+        <img id="setad" onclick="RolarDireita()" class="seta" src="./imagem/seta d.png" alt="">
+      </div>
+      </div> 
+    <!--formulario-->
+    <h1 id="tituloform">Seja Nosso Amigo</h1>
+    <form id="formula" action="https://api.sheetmonkey.io/form/h4bPpoU9Mckr5VFFumgoTf" method="post">
+      <div id="lacuna">
+      <input id="Nome" type="Nome" placeholder ="Nome" name="Name" required ><br>
+      <input type="Email" placeholder="Email" name="Email" required ><br>
+      <input type="Contato" placeholder="contato"name="contato" required ><br>
+      <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+      </div>
+      <button type="submit">enviar dados</button><br>    
+    </form>
+      <script src="index.js"></script>
+</body>
+</html>

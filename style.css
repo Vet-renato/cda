@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/*menu superior */
+#menu-superior{
+    background-color:white;
+}
+#logo{
+    width: 320px;
+    margin: 50px 500px 25px 600px;
+}
+#titulo-menu{
+    color: #BF0280;
+    margin-left: 450px;
+    font-weight: 900;
+}
+#texto-menu{
+    color: #BF0280;
+    margin-left: 570px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+ /* menu icone*/   
+#menu-icone{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #BF0280;
+  
+}
+.icones--{
+    width: 100px; 
+    padding: 20px;  
+}
+.textoicone{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+#conj1{
+    margin-left: 200px;
+}
+
+
+/*MENU VIDEO*/
+#video{
+    display: grid;
+    grid-auto-flow:column;
+}
+#textovideo{
+    align-items: center;
+    margin: 10px;
+}
+#titulovideo{
+    color: #BF0280;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+#vid{
+    margin: 40px;
+}
+
+/*CARDS*/
+
+#carrocel{
+    background-color: #A8B12C;
+}
+
+#comentario{
+    color:white;
+    margin-left: 500px;
+    padding: 25px;    
+}
+#coment{
+    display: grid;
+    grid-auto-flow: column;
+   margin-left: 50px;
+   padding-bottom: 50px;
+}
+.cards{
+    margin-left: 50px;
+}
+.seta{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.seta:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition-duration: 0,8s;
+}
+#setae{
+    display: none;
+}
+
+#card3{
+    display: none;
+}
+
+/*formulario*/
+
+#tituloform{
+    text-align: center;
+    color: #BF0280;
+    margin: 20px;
+}
+#formula{
+    text-align: center;
+}
+input{ 
+    width: 300px; 
+    height: 30px; 
+    margin: 10px; 
+    border: 0px; 
+    background-color: #d8b2cb; 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+
+button{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0px;
+    background-color:#A8B12C;
+    border-radius: 10px;
+    color: rgb(33, 133, 8);
+    font-weight: bolder;
+    
+}
+button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition-duration: 1s;
+    box-shadow: 0px 15px 20px rgb(33, 133, 8);
+}
+
+
+
+
+
+ 
+
+
+
